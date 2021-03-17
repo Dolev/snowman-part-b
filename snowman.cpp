@@ -3,16 +3,16 @@
 #include <string>
 #include "snowman.hpp"
 using namespace std;
-        const int ten = 10;
-        const int zero = 0;
-        const int one = 1;
-        const int two = 2;
-        const int three = 3;
-        const int four = 4;
-        const int five = 5;
-        const int six = 6;
-        const int seven = 7;
-        const int eight = 8;
+        const int ten = 10; //for dviding the int fer digits
+        const int zero = 0;//HAT
+        const int one = 1;// Nose
+        const int two = 2;// Left eye
+        const int three = 3;//  Right eye
+        const int four = 4;// Left hand 
+        const int five = 5;// Right hand
+        const int six = 6;// Belly
+        const int seven = 7;// Base
+        const int eight = 8;//for compering
 
 namespace ariel{
         
