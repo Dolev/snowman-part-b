@@ -27,11 +27,11 @@ namespace ariel{
         switch (hat){
             case '1': Hat= "_===_";
             break;
-            case '2': Hat= " ___ \n.....";
+            case '2': Hat= " ___ \n .....";
             break;
-            case '3': Hat= "  _  \n /_\\";
+            case '3': Hat= "  _  \n  /_\\";
             break;
-            case '4': Hat= " ___\n(_*_)";
+            case '4': Hat= " ___\n (_*_)";
             break;
         }
         return Hat+"\n";
@@ -74,11 +74,11 @@ namespace ariel{
     string topMiddle(char Lhand,char Rhand, char belly){
         string innertop=" ";
           switch (Lhand){
-            case '1': innertop= "<";
+            case '1': innertop= "\n<";
             break;
             case '2': innertop= "";
             break;
-            case '3': innertop= "/";
+            case '3': innertop= "\n/";
             break;
             case '4': innertop= "";
             break;
@@ -135,6 +135,7 @@ namespace ariel{
             int digit = input % ten;
             if(digit <one || digit > four){
                 throwException();
+                //cout <<"Wrong Input Optional<1-4 acceptable>"<< endl;
             }
             input = input/ten;
             counter++;
